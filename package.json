@@ -1,0 +1,24 @@
+{
+  "name": "blockverify",
+  "version": "1.0.0",
+  "description": "stop misinformation",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy-contract": "cp ./build/contracts/ArticleRegister.json ./client/src/contracts/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  },
+  "dependencies": {
+    "mongoose": "^8.2.1",
+    "nltk": "^0.0.1",
+    "string-similarity": "^4.0.4",
+    "string-similarity-js": "^2.1.4"
+  }
+}
