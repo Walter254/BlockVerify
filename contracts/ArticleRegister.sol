@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 contract ArticleRegister {
     struct Article {
-        string hash;
+        string hash; // keep track
         string metadata;
         uint256 timestamp;
     }
